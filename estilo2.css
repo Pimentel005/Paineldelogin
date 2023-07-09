@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    height: 1500px;
+    height: 0;
+}
+header {
+    background-color: black ;
+    
+    width: 100%;
+    
+}
+.cabecalho {
+   display: flex;
+   width: 990px;
+    
+}
+.logo img {
+    width: 100px;
+    margin-left: 40px;
+    height: 100px;
+}
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px;
+}
+.menu li:hover {
+    border-bottom: 3px solid white;
+}
+.background {
+    height: 990px;
+    background-color: black;
+}
+section {
+   
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.geral {
+    display: flex;
+    background-color: #4c4c4c;
+    width: 450px;
+    height: 500px;
+    top: 60px;
+    left: 400px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    border-radius: 40px;
+    position: relative;
+}
+input {
+    background-color: #4c4c4c;
+    border: 0;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 320px;
+    outline: 0px;
+    color: #fff;
+    height: 35px;
+}
+.container {
+    display: flex;
+}
+.em {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.email {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.se {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.senha {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+input[type="submit"] {
+    position: absolute;
+    left: 62px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: rgb(51, 51, 51) 0px 0px 3px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    padding: 9px;
+}
+.esqueceu {
+    position: absolute;
+    bottom: 150px;
+    color: #fff;
+}
+.esqueceu a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.slide {
+    position: absolute;
+    right: 190px;
+    top: 190px;
+    
+}
+.botao2 {
+    position: absolute;
+    right: 500px;
+    top: 400px;
+}
+
+.entrar {
+    text-decoration: none;
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+.input {
+    width: 70px;
+}
+.redesociais {
+    position: absolute;
+    left: 590px;
+    top: 420px;
+    display: flex;
+    
+}
+.redesociais img {
+    width: 30px;
+    height: 30px;
+    
+}
+.title {
+    position: absolute;
+    top: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+@media (max-width: 450px) {
+ .geral {
+    left: 20px;
+    width: 350px;
+    position: relative;
+ }
+input {
+    width: 250px;
+}
+.entrar1 {
+    width: 230px;
+}
+.esqueceu {
+    left: 90px;
+}
+
+
+}
+
+
+/*
+input {
+    background-color: #4c4c4c;
+    border: 0;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 320px;
+    outline: 0px;
+    color: #fff;
+    height: 35px;
+}
+
+
+
+
+
+

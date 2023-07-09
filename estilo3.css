@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    
+}
+header {
+    display: flex;
+    height: 120px;
+    
+    
+}
+.container {
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+}
+.cabecalho img {
+    width: 100px;
+    margin-left: 20px;
+}
+.usuario {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: end;
+    
+}
+.imagem img {
+    width: 45px;
+    border-radius: 90px;
+    padding: 13px;
+}
+.seta img {
+    width: 20px;
+    padding: 10px;
+    
+}
+.cursos {
+    
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 280px;
+}
+.cursos img {
+   border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+@media (max-width: 450px) {
+   .cursos {
+    display: block;
+    left: -40px;
+   }
+}
